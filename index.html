@@ -33,7 +33,7 @@
 
     <!-- Home -->
     <section id="home">
-        <img src="imgs/profile.jpg" alt="Jisun's profile photo" class="home__avatar">
+        <img src="imgs/profile.jpg" alt="Jisun's profile photo" class="home__avatar" width="250px" height="330px">
         <h1 class="home__title">안녕하세요 ! <br>배움을 즐기는 개발자 이지선 입니다.</h1>
         <h2 class="home__description">새로운 것을 배울 때 두려움 없이 끈기있게 파고들고 그 과정에서 알게 되는 모든 것들을 즐기곤 합니다.</h2>
         <button class="home__contact">Contact Me</button>
@@ -81,12 +81,12 @@
         </div>
         <div class="about__study">
             <div class="study">
-                <img src="imgs/study/university.jpg" alt="Seoul Institute Of The Arts" class="study__logo">
+                <i class="fa-solid fa-graduation-cap"></i>
                 <p class="study__name">서울예술대학교</p>
                 <p class="study__period">2019년 2월 - 2023년 2월</p>
             </div>
             <div class="study">
-                <img src="imgs/study/megait.png" alt="Mega Study It" class="study__logo">
+                <i class="fa-sharp fa-solid fa-computer"></i>
                 <p class="study__name">메가스터디 it 강남캠퍼스</p>
                 <p class="study__period">2022년 5월 - 2022년 11월</p>
             </div>
@@ -175,7 +175,75 @@
     </section>
 
     <!-- Work -->
-    <section id="work"></section>
+    <section id="work">
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+            <button class="category__btn">
+                All<span class="category__count">6</span>
+            </button>
+            <button class="category__btn">
+                HTML/CSS<span class="category__count">2</span>
+            </button>
+            <button class="category__btn">
+                JavaScript/jQuery<span class="category__count">2</span>
+            </button>
+            <button class="category__btn">
+                React<span class="category__count">2</span>
+            </button>
+        </div>
+
+        <div class="work__projects">
+            <a href="https://github.com/dlwltjs9109/Portfolio" class="project" target="_blank">
+                <img src="imgs/projects/project1.png" alt="project1" class="project__img">
+                <div class="project__description">
+                    <h3>Market Kurly</h3>
+                    <span>Market Kurly Clone coding</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/dlwltjs9109/Portfolio" class="project" target="_blank">
+                <img src="imgs/projects/project2.png" alt="project2" class="project__img">
+                <div class="project__description">
+                    <h3>js project1</h3>
+                    <span>js project 설명</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/dlwltjs9109/Portfolio" class="project" target="_blank">
+                <img src="imgs/projects/project3.png" alt="project3" class="project__img">
+                <div class="project__description">
+                    <h3>js project2</h3>
+                    <span>js project 설명</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/dlwltjs9109/Portfolio" class="project" target="_blank">
+                <img src="imgs/projects/project4.png" alt="project4" class="project__img">
+                <div class="project__description">
+                    <h3>react project1</h3>
+                    <span>react project 설명</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/dlwltjs9109/Portfolio" class="project" target="_blank">
+                <img src="imgs/projects/project5.png" alt="project5" class="project__img">
+                <div class="project__description">
+                    <h3>react project2</h3>
+                    <span>react project 설명</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/dlwltjs9109/Portfolio" class="project" target="_blank">
+                <img src="imgs/projects/project6.png" alt="project6" class="project__img">
+                <div class="project__description">
+                    <h3>Portfolio</h3>
+                    <span>Portfolio with HTML and CSS</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
     <!-- Contact -->
     <section id="contact"></section>
 </body>
