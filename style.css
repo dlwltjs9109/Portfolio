@@ -327,6 +327,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 952px;
+    margin: auto;
 }
 
 .project {
