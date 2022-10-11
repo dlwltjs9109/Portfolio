@@ -316,6 +316,7 @@ p {
     font-size: var(--font-regular);
     padding: 8px 48px;
     position: relative;
+    color: var(--color-black);
 }
 
 .category__btn.selected,
